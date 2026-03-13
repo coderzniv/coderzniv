@@ -1,10 +1,1 @@
-- 👋 Hi, I’m @coderzniv
-- 👀 I’m interested in coding py
-- 🌱 I’m currently learning py
-- 📫 How to reach me mail
-  
-
-<!---
-coderzniv/coderzniv is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I am a Front End developer and I am interested in HTML and JS. I code various THREE JS games and much more! My projects are "Hand made" so it takes days to make a single one. I am looking at AI but it does not seem fascinating, and I also am trying out Unity development using C#. The new syntax is triky but i think will get there!
