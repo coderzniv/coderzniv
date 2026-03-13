@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Me!</title>
+    <title>About Me — coderZniv</title>
     <style>
-        .par {
-           font-weight: 500; 
-           font-family: Georgia, 'Times New Roman', Times, serif;
-           font-size: medium;
-           color: aqua;
-           transition: all 0.2s ease;
-        }
         body {
-            background-color: black;
+            background: #000;
+            font-family: "Segoe UI", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
+
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px 40px;
+            border-radius: 15px;
+            border: 2px solid cyan;
+            box-shadow: 0 0 20px cyan;
+            transition: 0.3s ease;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 35px cyan;
+        }
+
         h1 {
             color: cyan;
-            
-            transition: all 0.2s ease;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px cyan;
+            transition: 0.3s ease;
         }
-        .par:hover {
-         font-size: larger;
-         color: aqua;
-         font-weight: 800;
+
+        h1:hover {
+            color: white;
+            text-shadow: 0 0 20px white;
+        }
+
+        p {
+            color: #bffcff;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            transition: 0.3s ease;
+        }
+
+        p:hover {
+            color: white;
+            text-shadow: 0 0 10px white;
+        }
+
+        .glow {
+            color: cyan;
+            font-weight: bold;
+            text-shadow: 0 0 10px cyan;
         }
     </style>
 </head>
 
 <body>
-    <h1>Hello!</h1>
-    <p class="par">My name is coderZniv on GitHub. I love Front End programming: HTML & JS.</p>
+    <div class="card">
+        <h1>Hello!</h1>
+        <p>
+            I'm <span class="glow">coderZniv</span> — a front‑end developer who loves crafting
+            clean, animated, interactive experiences using <span class="glow">HTML</span>,
+            <span class="glow">CSS</span>, and <span class="glow">JavaScript</span>.
+        </p>
+        <p>
+            I build things that feel alive — smooth transitions, neon effects,
+            responsive UI, and creative layouts.  
+            Coding isn’t just a skill for me; it’s a **craft**, a **playground**, and a
+            **mythic world** I shape one line at a time.
+        </p>
+    </div>
 </body>
-
 </html>
